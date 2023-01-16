@@ -4,8 +4,6 @@
 /* common styles or utilities */
 body {
     font-family: 'Work Sans', sans-serif;
-    background: rgba(255, 144, 14, 0.1);
-    ;
 }
 
 /* ---------
@@ -13,7 +11,7 @@ body {
 ------------*/
 
 .header {
-    margin: 40px 220px;
+    background: rgba(255, 144, 14, 0.1);
 }
 
 nav {
@@ -80,6 +78,18 @@ nav li a {
     margin-bottom: 50px;
 }
 
+.btn-primary-1 {
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding: 45px 42px;
+    width: 342px;
+    height: 200px;
+    border-color: #FFFFFF;
+}
+
 /* second part */
 
 .second-part {
@@ -104,6 +114,25 @@ nav li a {
     gap: 54px;
     margin: 60px;
     align-items: center;
+}
+
+.third-part-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.third {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.third-part-info p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 /* 4th part */
@@ -181,8 +210,8 @@ footer {
     margin-top: 130px;
     margin-bottom: 130px;
     color: #424242;
-    font-weight: 400;
-    font-size: 20px;
-    background: #FFFFFF;
-    padding: 10px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 39px 410px;
+
 }
