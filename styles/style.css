@@ -1,0 +1,188 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+/* common styles or utilities */
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: rgba(255, 144, 14, 0.1);
+    ;
+}
+
+/* ---------
+          Navigation part -------
+------------*/
+
+.header {
+    margin: 40px 220px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    margin: 30px;
+}
+
+
+/* ----------------
+                banner part------
+------------------ */
+
+.banner {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 180px;
+    height: 64px;
+    border: 0;
+    padding: 20px 24px;
+    margin-bottom: 50px;
+}
+
+/* second part */
+
+.second-part {
+    margin: 100px;
+    background-color: white;
+}
+
+.second-part-container,
+.photo-part-1,
+.photo-part-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+}
+
+/* third-part-container */
+
+.third-part-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 54px;
+    margin: 60px;
+    align-items: center;
+}
+
+/* 4th part */
+
+.fact-part {
+    background: #FFFFFF;
+}
+
+.some-facts {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.some-facts-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center
+}
+
+.skill-title {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.skill-description {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* our-sponsors */
+
+.our-sponspors {
+    background: white;
+}
+
+.sponspors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponspors-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sponspors-title,
+.sponspors-description {
+    text-align: center;
+}
+
+.sponspors-description {
+    margin-bottom: 50px;
+    margin-top: 24px;
+}
+
+.sponspors {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    background: #FFFFFF;
+    padding: 10px;
+}
