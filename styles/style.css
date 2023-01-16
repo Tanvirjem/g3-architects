@@ -213,5 +213,38 @@ footer {
     background: #FFF4E7;
     border-radius: 8px;
     padding: 39px 410px;
+    display: flex;
+
+}
+
+/* Make responsive  */
+
+@media screen and (max-width:688px) {
+
+    .header,
+    .second-part,
+    .third-part,
+    .fact-part .our-sponspors {
+        width: 100%;
+    }
+
+    .sponspors {
+        flex-direction: column;
+    }
+
+    .skill-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-part-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .second-part-container,
+    .photo-part-1,
+    .photo-part-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 }
